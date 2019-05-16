@@ -1,4 +1,4 @@
-package com.davidcorp.myspringboottest;
+package com.davidcorp.myspringboottest.thread;
 
 public class WaitTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.davidcorp.myspringboottest;
+package com.davidcorp.myspringboottest.thread;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

@@ -1,4 +1,4 @@
-package com.davidcorp.myspringboottest;
+package com.davidcorp.myspringboottest.thread;
 
 public class MyThread2 extends Thread{
 

@@ -1,4 +1,6 @@
-package com.davidcorp.myspringboottest;
+package com.davidcorp.myspringboottest.thread;
+
+import com.davidcorp.myspringboottest.thread.MyRunnable;
 
 public class ThreadTest2 {
     public static void main(String[] args) {
