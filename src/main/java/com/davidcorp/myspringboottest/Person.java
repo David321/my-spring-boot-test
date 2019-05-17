@@ -2,6 +2,8 @@ package com.davidcorp.myspringboottest;
 
 public class Person {
 
+    final String addr = "changsha";
+
     static{
         System.out.println("我是Person类的静态代码块----------");
     }
