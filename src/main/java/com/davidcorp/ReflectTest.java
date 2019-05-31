@@ -1,6 +1,7 @@
 package com.davidcorp;
 
 import java.lang.reflect.Method;
+import java.lang.Class;
 
 public class ReflectTest {
     public static void main(String[] args) {
