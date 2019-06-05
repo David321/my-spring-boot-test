@@ -15,7 +15,7 @@ public class TestLambda {
         TreeSet<Integer> ts = new TreeSet<>(com);
     }
 
-    // lambda表达式的方式
+    // 改进：采用lambda表达式的方式
     public void test2() {
         Comparator<Integer> com = (x, y) -> Integer.compare(x, y);
         TreeSet<Integer> ts = new TreeSet<>(com);
