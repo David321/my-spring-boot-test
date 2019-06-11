@@ -3,6 +3,9 @@ package com.davidcorp.java8test;
 import java.util.Comparator;
 import java.util.function.Consumer;
 
+/**
+ * 方法引用
+ * */
 public class TestLambda3 {
     // Java8四大内置函数式接口
     // consumer supplier function predicate

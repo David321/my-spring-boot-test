@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * Java8新特性：Stream API
+ * 对集合进行操作，像SQL语句一样，limit
+ * */
+
 public class StreamTest {
     public static void main(String[] args) {
         // 方式1
