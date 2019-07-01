@@ -21,6 +21,12 @@ public class TestLambda {
         TreeSet<Integer> ts = new TreeSet<>(com);
     }
 
+    // 继续改进，采用方法引用
+    public void test3() {
+        Comparator<Integer> com = Integer::compareTo;
+        TreeSet<Integer> ts = new TreeSet<>(com);
+    }
+
     List<Employee> emps = Arrays.asList(
             new Employee(101, "张三", 18, 9999.99),
             new Employee(102, "李四", 59, 6666.66),

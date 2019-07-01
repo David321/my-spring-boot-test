@@ -5,14 +5,14 @@ public class Person {
     final String addr = "changsha";
 
     static{
-        System.out.println("我是Person类的静态代码块----------");
+//        System.out.println("我是Person类的静态代码块----------");
     }
 
     String name;
     String age;
 
     {
-        System.out.println("我是构造代码块--------------------");
+//        System.out.println("我是构造代码块--------------------");
     }
 
     public void sayHello(){
@@ -21,7 +21,7 @@ public class Person {
 
     // 这是构造方法
     public Person(String name, String age){
-        System.out.println("我是构造方法，name="+name+"，age="+age);
+//        System.out.println("我是构造方法，name="+name+"，age="+age);
         this.name = name;
         this.age = age;
     }
