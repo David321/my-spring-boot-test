@@ -1,4 +1,4 @@
-package com.davidcorp.jdbc_test;
+package com.davidcorp.jdbc;
 
 import java.sql.*;
 

@@ -1,4 +1,4 @@
-package com.davidcorp.yonxinyuan_test.interfaceTest;
+package com.davidcorp.yonxinyuan.interfaceTest;
 
 public class ConcretMan {
 

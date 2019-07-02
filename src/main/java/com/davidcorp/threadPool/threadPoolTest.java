@@ -1,4 +1,4 @@
-package com.davidcorp.threadPoolTestPkg;
+package com.davidcorp.threadPool;
 
 import java.util.concurrent.*;
 

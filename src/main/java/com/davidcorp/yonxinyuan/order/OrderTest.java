@@ -1,4 +1,4 @@
-package com.davidcorp.yonxinyuan_test.order;
+package com.davidcorp.yonxinyuan.order;
 
 import org.junit.Test;
 

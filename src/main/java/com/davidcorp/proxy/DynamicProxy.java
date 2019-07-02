@@ -1,4 +1,4 @@
-package com.davidcorp.proxyPkg;
+package com.davidcorp.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

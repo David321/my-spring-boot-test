@@ -1,4 +1,4 @@
-package com.davidcorp.yonxinyuan_test.interfaceTest;
+package com.davidcorp.yonxinyuan.interfaceTest;
 
 public abstract class AbstractMan implements Person{
     // 抽象类中可包含抽象方法

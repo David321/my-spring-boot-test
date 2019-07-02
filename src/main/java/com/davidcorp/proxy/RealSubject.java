@@ -1,4 +1,4 @@
-package com.davidcorp.proxyPkg;
+package com.davidcorp.proxy;
 
 public class RealSubject implements Subject {
     @Override

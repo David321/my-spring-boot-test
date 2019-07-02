@@ -1,4 +1,4 @@
-package com.davidcorp.proxyPkg;
+package com.davidcorp.proxy;
 
 public interface Subject {
     void rent();

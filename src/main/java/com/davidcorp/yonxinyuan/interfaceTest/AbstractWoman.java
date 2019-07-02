@@ -1,4 +1,4 @@
-package com.davidcorp.yonxinyuan_test.interfaceTest;
+package com.davidcorp.yonxinyuan.interfaceTest;
 
 public abstract class AbstractWoman extends ConcretMan {
     public static void main(String[] args) {

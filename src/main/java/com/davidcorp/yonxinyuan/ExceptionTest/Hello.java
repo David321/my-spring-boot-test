@@ -1,4 +1,4 @@
-package com.davidcorp.yonxinyuan_test.ExceptionTest;
+package com.davidcorp.yonxinyuan.ExceptionTest;
 
 public class Hello {
 
