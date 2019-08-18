@@ -2,6 +2,9 @@ package com.davidcorp.collectionTest.comparableTest;
 
 public class User implements Comparable<User>{
     private String name;
+    private String sex;
+    private String address;
+    private String school;
     private Integer order;
 
     public String getName() {
@@ -18,6 +21,30 @@ public class User implements Comparable<User>{
 
     public void setOrder(Integer order) {
         this.order = order;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getSchool() {
+        return school;
+    }
+
+    public void setSchool(String school) {
+        this.school = school;
     }
 
     @Override
