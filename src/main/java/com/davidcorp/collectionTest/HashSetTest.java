@@ -1,12 +1,11 @@
 package com.davidcorp.collectionTest;
 
-import com.davidcorp.Model.Dog;
-import com.davidcorp.Model.Person;
-import com.davidcorp.Model.Person2;
-import com.davidcorp.Model.Person3;
+import com.davidcorp.model.Dog;
+import com.davidcorp.model.Person;
+import com.davidcorp.model.Person2;
+import com.davidcorp.model.Person3;
 import org.junit.Test;
 
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.TreeSet;

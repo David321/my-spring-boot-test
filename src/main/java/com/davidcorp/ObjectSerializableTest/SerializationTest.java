@@ -1,6 +1,6 @@
 package com.davidcorp.ObjectSerializableTest;
 
-import com.davidcorp.Model.Student;
+import com.davidcorp.model.Student;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

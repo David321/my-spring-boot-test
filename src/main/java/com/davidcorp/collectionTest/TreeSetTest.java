@@ -1,6 +1,6 @@
 package com.davidcorp.collectionTest;
 
-import com.davidcorp.Model.Person;
+import com.davidcorp.model.Person;
 
 import java.util.ArrayList;
 import java.util.HashSet;

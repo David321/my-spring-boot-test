@@ -1,10 +1,12 @@
-package com.davidcorp.Model;
+package com.davidcorp.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Person2 implements Comparable<Person2>{
+public class Person4 implements Cloneable, Serializable {
     private int id;
     private String name;
+    private Dog dog;
 
     public int getId() {
         return id;
@@ -22,39 +24,53 @@ public class Person2 implements Comparable<Person2>{
         this.name = name;
     }
 
-    public Person2(int id, String name) {
+    public Dog getDog() {
+        return dog;
+    }
+
+    public void setDog(Dog dog) {
+        this.dog = dog;
+    }
+
+    public Person4(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Person2() {
+    public Person4() {
     }
 
     @Override
     public String toString() {
-        return "Person2{" +
+        return "Person4{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
     }
 
     @Override
+    public Object clone() {
+        Person4 person = null;
+        try {
+            person = (Person4)super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return person;
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person2 person2 = (Person2) o;
-        return id == person2.id &&
-                Objects.equals(name, person2.name);
+        Person4 person4 = (Person4) o;
+        return id == person4.id &&
+                Objects.equals(name, person4.name);
     }
 
     @Override
     public int hashCode() {
 
         return Objects.hash(id, name);
-    }
-
-    @Override
-    public int compareTo(Person2 o) {
-        return Integer.compare(this.getId(), o.getId());
     }
 }

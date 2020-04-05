@@ -1,7 +1,7 @@
 package com.davidcorp;
 
-import com.davidcorp.Model.Dog;
-import com.davidcorp.Model.Person4;
+import com.davidcorp.model.Dog;
+import com.davidcorp.model.Person4;
 import com.davidcorp.util.CloneUtil;
 import org.junit.Test;
 

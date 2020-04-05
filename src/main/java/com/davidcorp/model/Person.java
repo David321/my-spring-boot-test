@@ -1,4 +1,4 @@
-package com.davidcorp.Model;
+package com.davidcorp.model;
 
 public class Person {
 
