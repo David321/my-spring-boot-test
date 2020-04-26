@@ -12,12 +12,12 @@ import java.util.TreeSet;
 
 public class HashSetTest {
     public static void main(String[] args) {
-        // HashSet底层是HashMap111
+        // HashSet底层是HashMap add comment git test
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("name", "david");// HashMap存储key-value形式的数据
 
         HashSet<String> hashSet = new HashSet<>();
-        hashSet.add("david");// HashSet只能存储单个数据，不能存储key-value形式的数据
+        hashSet.add("david");// HashSet只能存储单个数据，不能存储key-value形式的数据111111
         hashSet.add(null);// 允许null值
     }
 
