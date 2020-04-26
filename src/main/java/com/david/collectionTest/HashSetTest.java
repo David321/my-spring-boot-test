@@ -12,7 +12,7 @@ import java.util.TreeSet;
 
 public class HashSetTest {
     public static void main(String[] args) {
-        // HashSet底层是HashMap
+        // HashSet底层是HashMap111
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("name", "david");// HashMap存储key-value形式的数据
 
